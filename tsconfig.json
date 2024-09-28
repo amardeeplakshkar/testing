@@ -12,6 +12,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "types": ["node", "react", "react-dom", "prop-types"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./path/to/your/custom/types" // Adjust this path if needed
+    ],
     "plugins": [
       {
         "name": "next"
